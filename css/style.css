@@ -1,0 +1,54 @@
+/*
+---01 Typography system
+
+-FONT SIZE (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-FONT weights:
+default :400
+
+-Line heights:
+default:1
+
+---02 Colors
+
+-Primary: Brand color: #ff922b
+-Tints:
+-Shades:
+-Accents:
+-Grays:
+#555
+
+
+--- 05 Shadows
+
+---06  Border-radius
+
+--- 07 Whitespace
+
+ SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: figtree , sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.hero{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: blue;
+}
+
+.hero-img{
+  width: 100%;
+
+}
