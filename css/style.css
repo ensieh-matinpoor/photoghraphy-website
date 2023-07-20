@@ -196,11 +196,34 @@ display: flex;
 
   }
 
-.footer-img{
-  width: 100%;
-  border-radius: 1rem;
-}
+.about-me-img{
   
+  height: 25rem;
+  width: 25rem;
+  border-radius: 1rem;
+
+
+}
+
+.about-me{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  max-width:120rem ;
+  margin: 0 auto;
+  margin-top: 12.8rem;
+   
+}
+
+.introduction{
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #333;
+  margin-bottom: 9.6rem;
+  
+}
 
 
 
