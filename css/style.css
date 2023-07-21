@@ -71,7 +71,7 @@ body {
 /* NAVBAR*/
 /* ***************** */
 .navbar{
-   display: flex; 
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   height: 9.6rem;
@@ -118,7 +118,7 @@ body {
 .section-hero{
    /* background-color: #FFF4EA;  */
   padding: 12.8rem 0 12.8rem 0;
-  border-top: 0.2rem solid #333;;
+  border-top: 0.2rem solid #333;
 
 }
 .hero{
@@ -225,5 +225,37 @@ display: flex;
   
 }
 
+.footer-menu-list{
+  list-style-type: none;
+  margin-top: 12.8rem;
+  margin-bottom: 2.4rem; 
+  padding-bottom: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.4rem;
+   border-bottom: 0.2rem solid #333; 
+}
+  
 
+.footer-name:link, 
+.footer-name:visited{
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+   font-size: 1rem; }
+   
+.footer-name{
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
+.socials{
+  color: #333;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 6.4em;
+  margin-bottom: 6.4rem;
+}
