@@ -63,10 +63,10 @@
     gap: 6.4rem;
 }
  .hero-text-box {
-  content:
+  text-align: left;
  }
  .hero-img-box{
-  text-align: left;
+  text-align: center;
  }
  
 
