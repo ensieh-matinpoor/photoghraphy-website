@@ -1,0 +1,81 @@
+/* rem and em do not depend on html font-size in media queries
+1rem = 1em =16px */
+
+
+/* ***************** */
+/* below 1344 px(smaller desktop)
+1344/16=84 */
+/* ***************** */
+@media(max-width: 84em){
+  .hero{
+    max-width: 120rem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+  }
+}
+/* ***************** */
+/* below 1200 px(landscape tablets)
+1344/16=75 */
+/* ***************** */
+@media(max-width:75em){
+  .html{
+    /* 9px/16px */
+    font: size 56.25%;
+  }
+  .grid{
+    column-gap: 4.8rem;
+    row-gap: 9.6rem;
+  }
+  .heading-secondary{
+    font-size:3.0rem;
+  }
+  .heading-tertiary{
+    font-size:2.0rem ;
+  }
+  .navbar{
+    padding: 0 9.8rem;
+  }
+  .logo-name{
+    font-size: 2.4rem;
+  }
+  .primary-button{
+
+  }
+  .hero{
+    gap: 8.0rem;
+    padding: 0 9.6rem;
+  } 
+  
+  .container{
+    padding: 0 2.4rem;
+  }
+
+  }
+  /* ***************** */
+/* below 944 px(tablets)
+944/16=75 */
+/* ***************** */
+@media(max-width:59em){
+  .html{
+    /* 8px/16px= 0.5 50% */
+    font-size: 50%;
+  }
+  .hero{
+    grid-template-columns: 1fr;
+    gap: 6.4rem;
+}
+ .hero-text-box {
+  content:
+ }
+ .hero-img-box{
+  text-align: left;
+ }
+ 
+
+  }
+
+
+  /* -FONT SIZE (px) 
+ 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+  
+ /* SPACING SYSTEM (px) 
+ 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 / 160
+ */
