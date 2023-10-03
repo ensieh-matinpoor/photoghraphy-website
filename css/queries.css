@@ -26,6 +26,7 @@
   }
   .heading-secondary{
     font-size:3.0rem;
+    margin-bottom: 8.0rem;
   }
   .heading-tertiary{
     font-size:2.0rem ;
@@ -36,19 +37,14 @@
   .logo-name{
     font-size: 2.4rem;
   }
-  .primary-button{
-
-  }
   .hero{
     gap: 8.0rem;
     padding: 0 9.6rem;
   } 
-  
   .container{
     padding: 0 2.4rem;
   }
-
-  }
+}
   /* ***************** */
 /* below 944 px(tablets)
 944/16=75 */
@@ -60,18 +56,58 @@
   }
   .hero{
     grid-template-columns: 1fr;
-    gap: 4.8rem;
+    gap: 6.4rem;
 }
 .section-hero{
-  padding: 9.6rem 0 9.6rem 0;
+  padding: 6.4rem 0 6.4rem 0;
+}
+.grid{
+  column-gap: 3.2rem;
+  row-gap: 6.4rem;
+}
+
+  .project-img{
+    width: 80%;
+  }
  .hero-text-box {
   text-align: left;
  }
  .hero-img-box{
   text-align: center;
  }
+  .heading-secondary{
+    font-size: 2.4rem;
+    margin-bottom: 4.8rem;
   }
+  .heading-tertiary{
+    font: size 1.8rem;
+  }
+  .grid--2cols{
+    grid-template-columns:1fr;
+  }
+
+  .card-img-box{
+    text-align:center;
+  }
+  .text-box{
+    text-align: left;
+  }
+  .container{
+    padding: 0 2.4rem;
+  }
+  .project-description{
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    margin-bottom: 6.4rem;
 }
+
+
+
+
+
+
+}
+  
 
   /* -FONT SIZE (px) 
  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
