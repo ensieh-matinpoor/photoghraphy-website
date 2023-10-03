@@ -60,18 +60,18 @@
   }
   .hero{
     grid-template-columns: 1fr;
-    gap: 6.4rem;
+    gap: 4.8rem;
 }
+.section-hero{
+  padding: 9.6rem 0 9.6rem 0;
  .hero-text-box {
   text-align: left;
  }
  .hero-img-box{
   text-align: center;
  }
- 
-
   }
-
+}
 
   /* -FONT SIZE (px) 
  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
