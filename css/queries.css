@@ -56,10 +56,13 @@
   }
   .hero{
     grid-template-columns: 1fr;
-    gap: 6.4rem;
+    gap: 3.2rem;
 }
 .section-hero{
-  padding: 6.4rem 0 6.4rem 0;
+  padding: 4.8rem 0 4.8rem 0;
+}
+.hero-description{
+  margin-bottom: 3.2rem;
 }
 .grid{
   column-gap: 3.2rem;
@@ -80,7 +83,7 @@
     margin-bottom: 4.8rem;
   }
   .heading-tertiary{
-    font: size 1.8rem;
+    font-size:1.8rem;
   }
   .grid--2cols{
     grid-template-columns:1fr;
