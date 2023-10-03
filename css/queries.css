@@ -59,14 +59,14 @@
     gap: 3.2rem;
 }
 .section-hero{
-  padding: 4.8rem 0 4.8rem 0;
+  padding: 6.4rem 0 6.4rem 0;
 }
 .hero-description{
   margin-bottom: 3.2rem;
 }
 .grid{
   column-gap: 3.2rem;
-  row-gap: 6.4rem;
+  row-gap: 4.8rem;
 }
 
   .project-img{
@@ -80,7 +80,7 @@
  }
   .heading-secondary{
     font-size: 2.4rem;
-    margin-bottom: 4.8rem;
+    margin-bottom: 6.4rem;
   }
   .heading-tertiary{
     font-size:1.8rem;
@@ -88,7 +88,6 @@
   .grid--2cols{
     grid-template-columns:1fr;
   }
-
   .card-img-box{
     text-align:center;
   }
@@ -103,12 +102,6 @@
     line-height: 2.0rem;
     margin-bottom: 4.8rem;
 }
-
-
-
-
-
-
 }
   
 
