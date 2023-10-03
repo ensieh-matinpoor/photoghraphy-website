@@ -90,15 +90,12 @@
   }
   .card-img-box{
     text-align:center;
-    padding: 0 9.6rem 0 9.6rem;
   }
   .text-box{
     text-align: left;
+    padding: 0 9.6rem 0 9.6rem;
+  }
   
-  }
-  .container{
-    padding: 0 2.4rem;
-  }
   .project-description{
     font-size: 1.6rem;
     line-height: 2.0rem;
@@ -119,10 +116,13 @@
 .footer-menu-list{
   margin-top: 6.4rem; 
 }
-
-
 }
-  
+  /* ***************** */
+/* below 1200 px(landscape tablets)
+1344/16=75 */
+/* ***************** */
+
+
 
   /* -FONT SIZE (px) 
  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */

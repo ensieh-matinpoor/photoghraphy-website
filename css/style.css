@@ -99,6 +99,17 @@ body {
   text-decoration: none;
 
 }
+/* Mobile */
+.btn-mobile-nav{
+  border: noun;
+  background-color: noun;
+  cursor: pointer;
+}
+.con-mobile-nav{
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
 /* .primary-button:link */
 /* .primary-button:visited{ 
   text-decoration: none;
