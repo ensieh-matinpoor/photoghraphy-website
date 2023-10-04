@@ -175,10 +175,12 @@
   .section-hero{
     padding: 0 4.8rem 0 4.8rem;
   }
+  .hero{
+    padding: 0 4.8rem;
+  }
   .hero-description{
     margin-bottom: 2.4rem;
   }
-
   .grid{
     display: grid;
     column-gap: 2.4rem;
@@ -201,7 +203,13 @@
     text-decoration: none;
     box-shadow: 0 0.3rem #fc9925; /* Adjust the box shadow as needed */
   }
+  .heading-secondary{
+    font-size: 1.6rem;
+    margin-bottom: 4.8rem;
+  }
+
 }
+
 
 
 
