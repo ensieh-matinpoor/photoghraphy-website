@@ -118,9 +118,69 @@
 }
 }
   /* ***************** */
-/* below 1200 px(landscape tablets)
-1344/16=75 */
+/* below 700 px(smaller tablet)
+704/16=44 */
 /* ***************** */
+
+@media(max-width:44em){
+  .html{
+    /* 7px/16px= 0.43 43% */
+    font-size: 43%;
+  }
+    .primary-button {
+      width: 13rem; 
+      height: 4rem; 
+      font-size: 1.4rem; 
+      font-weight: 500;
+      line-height: 1.5rem;
+      display: inline-block; 
+      text-align: center;
+      white-space: normal;
+      background-color: #fafafa;
+      color: #000;
+      border: 0.2rem solid #000; 
+      border-radius: 1rem;
+      text-decoration: none;
+      box-shadow: 0 0.3rem #fc9925; 
+      text-decoration: none;
+  }
+  .heading-primary{
+   font-size: 2.4rem;
+  }
+  .heading-secondary{
+    font-size: 2.0rem;
+  }
+  .heading-tertiary{
+    font-size:1.6em;
+  }
+}
+ /* ***************** */
+/* below 544 px(phones)
+544/16=34 */
+/* ***************** */
+
+@media(max-width:34em){
+  grid{
+    column-gap: 3.2rem;
+    row-gap: 8.0rem;
+  }
+  .primary-button {
+    width: 8rem; /* Adjust the width as needed for a smaller button */
+    height: 3rem; /* Adjust the height as needed for a smaller button */
+    font-size: 1.2rem; /* Adjust the font size for a smaller button */
+    font-weight: 500;
+    line-height: 1.5rem;
+    display: inline-block; /* Adjust the display property as needed */
+    text-align: center;
+    white-space: normal;
+    background-color: #fafafa;
+    color: #000;
+    border: 0.2rem solid #000; /* Adjust the border size as needed */
+    border-radius: 1rem;
+    text-decoration: none;
+    box-shadow: 0 0.3rem #fc9925; /* Adjust the box shadow as needed */
+  }
+}
 
 
 
