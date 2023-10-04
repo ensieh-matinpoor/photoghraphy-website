@@ -199,7 +199,7 @@
   .grid{
     display: grid;
     column-gap: 2.4rem;
-    row-gap: 3.2rem;
+    row-gap: 4.2rem;
     
   }
   .primary-button {
