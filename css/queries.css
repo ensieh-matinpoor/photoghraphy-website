@@ -172,8 +172,11 @@
   }
 
   .hero-img{
-    width: 100%;
+    width: 100vw;
     position: relative;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    border-radius: 0rem;
   }
   .hero-img-box{
     max-width:100%;
