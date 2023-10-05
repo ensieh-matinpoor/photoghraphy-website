@@ -18,7 +18,7 @@
 @media(max-width:75em){
   .html{
     /* 9px/16px */
-    font: size 56.25%;
+    font-size:  56.25%;
   }
   .grid{
     column-gap: 4.8rem;
@@ -219,6 +219,9 @@
     box-shadow: 0 0.3rem #fc9925; /* Adjust the box shadow as needed */
   }
   
+  .project-img{
+    width: 100%;
+  }
   .project-description{
     font-size: 1.4rem;
     margin-bottom: 1.6rem;
