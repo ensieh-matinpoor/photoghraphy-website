@@ -99,7 +99,7 @@ body {
   text-decoration: none;
 
 }
-/*  Mobile  
+/*   Mobile   */
 .btn-mobile-nav{
   border: none;
    background-color:none; 
@@ -111,7 +111,7 @@ body {
   color: #333;}
 .icon-mobile-nav[name="close"]{
   display: none;}
-  */
+
 
 /* .primary-button:link */
 /* .primary-button:visited{ 
