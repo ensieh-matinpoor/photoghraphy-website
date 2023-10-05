@@ -99,22 +99,19 @@ body {
   text-decoration: none;
 
 }
-/* Mobile */
+/*  Mobile  
 .btn-mobile-nav{
   border: none;
    background-color:none; 
   cursor: pointer;
-  display: none;
-}
+  display: none;}
 .icon-mobile-nav{
   height: 3.2rem;
   width: 3.2rem;
-  color: #333;
-}
+  color: #333;}
 .icon-mobile-nav[name="close"]{
-  display: none;
-}
-
+  display: none;}
+  */
 
 /* .primary-button:link */
 /* .primary-button:visited{ 

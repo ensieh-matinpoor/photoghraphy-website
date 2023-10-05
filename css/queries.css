@@ -168,12 +168,15 @@
     padding: 0 3.2rem;
   }
   .logo-name{
-    height: 1.6rem;
     font-size: 2.4rem;
   }
 
   .hero-img{
-    width: 100%;
+    max-width: 100%;
+    position: relative;
+  }
+  .hero-img-box{
+    max-width:100%;
   }
   .section-hero{
     padding: 0 1.6rem 0 1.6rem;
@@ -188,7 +191,7 @@
     margin-bottom: 2.4rem;
   }
   .heading-primary{
-    font-size:  2.0rem; 
+    font-size:  2.4rem; 
     line-height: 3.0rem;
     margin-bottom: 2.4rem;
     margin-top: 4.8rem;
@@ -206,20 +209,16 @@
     /* margin-bottom: 2.4rem; */
   
   .primary-button {
-    width: 10rem; /* Adjust the width as needed for a smaller button */
-    height: 3rem; /* Adjust the height as needed for a smaller button */
-    font-size: 1.2rem; /* Adjust the font size for a smaller button */
+    width: 10rem; 
+    height: 3rem; 
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.5rem;
-    display: inline-block; /* Adjust the display property as needed */
-    text-align: center;
-    white-space: normal;
-    background-color: #fafafa;
+    display: inline-block;
     color: #000;
-    border: 0.2rem solid #000; /* Adjust the border size as needed */
+    border: 0.2rem solid #000; 
     border-radius: 1rem;
-    text-decoration: none;
-    box-shadow: 0 0.3rem #fc9925; /* Adjust the box shadow as needed */
+    box-shadow: 0 0.3rem #fc9925; 
   }
   
   .project-img{
