@@ -177,7 +177,7 @@ body {
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: #333;
-  margin-bottom: 9.6rem;
+  margin-bottom: 9.4rem;
 }
   
 .project-img{
@@ -189,7 +189,7 @@ body {
 .text-box{
 display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .about-me-img{
