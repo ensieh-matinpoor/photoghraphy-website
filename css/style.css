@@ -93,10 +93,11 @@ body {
   border-radius: 1rem;
   font-size: 1.6rem;
   font-weight: 500;
-  line-height: 1.5rem;
-  display: block;
+  line-height: 4.2rem;
+  display:inline-block;
   box-shadow: 0 0.5rem #fc9925;
   text-decoration: none;
+  cursor: pointer;
 
 }
 
