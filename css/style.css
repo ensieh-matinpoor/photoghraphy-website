@@ -253,3 +253,17 @@ display: flex;
   gap: 6.4em;
   margin-bottom: 6.4rem;
 }
+
+
+/* *************************** */
+/* PROJECTS */
+/* *************************** */
+/* Tajrish */
+
+.heading-tertiary{
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.0rem;
+  color: #333;
+  margin-bottom: 2.4rem;
+}
