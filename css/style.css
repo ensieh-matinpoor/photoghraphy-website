@@ -299,14 +299,19 @@ display: flex;
   row-gap: 16.0rem;
 }
   
+.img-grid--2cols{
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3.2rem;
+}
 .medium-size-img{
 
 }
 
-.grid--cols2{
-grid-template-columns: 1fr 1fr;
-}
-
 .large-size-img{
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  border-radius: 0rem;
 
 }
