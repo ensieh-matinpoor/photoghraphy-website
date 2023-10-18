@@ -260,10 +260,52 @@ display: flex;
 /* *************************** */
 /* Tajrish */
 
-.heading-tertiary{
+.first-text-section{
+  /* max-width: 120em; */
+  padding:0;
+  border-top: 0.2rem solid #333;
+}
+.container-project{
+  max-width:120rem ;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.project-title{
+  padding:3.6rem 9.6rem 3.6rem 6.4rem;
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 3.0rem;
   color: #333;
-  margin-bottom: 2.4rem;
+  
+
+}
+.description-text{
+  padding: 0 9.6rem;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin-bottom: 4.8rem;
+}
+.img-container{
+  width: 100%;
+  border-radius: 1rem;
+  /* row-gap: 3.6rem; */
+
+}
+.grid{
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 16.0rem;
+}
+  
+.medium-size-img{
+padding: 0 9.6rem;
+}
+
+.grid--cols2{
+grid-template-columns: 1fr 1fr;
+}
+
+.large-size-img{
+
 }
