@@ -71,13 +71,16 @@ body {
 /* NAVBAR*/
 /* ***************** */
 .navbar{
-  display: flex; 
+  display:flex;
   justify-content: space-between;
   align-items: center;
   height: 9.6rem;
   padding: 0 9.6rem;
+  border-bottom: 0.2rem solid #333;
 }
 .logo-name{
+  text-decoration: none;
+  color: #333;
   height: 2.4rem; 
   font-weight: 500;
   font-size: 3.0rem;
@@ -100,14 +103,20 @@ body {
   cursor: pointer;
 
 }
-
-/* .primary-button:link */
-/* .primary-button:visited{ 
-  text-decoration: none;
-  color: #333;
-  font-weight: light 300 ;
-  font-size: 1rem;
-  transition: 0.3s; }*/
+.side-navbar{
+position: fixed;
+right: 0;
+top: 0;
+width: 35vw;
+height: 100vh;
+background-color: #333;
+}
+.menu{
+  text-align: center;
+  color: #fafafa;
+  line-height: 4.2rem;
+  border-bottom: 0.3rem solid #fff;
+}
 
 
 /* ***************** */
@@ -118,7 +127,7 @@ body {
 .section-hero{
    /* background-color: #FFF4EA;  */
   padding: 12.8rem 0 12.8rem 0;
-  border-top: 0.2rem solid #333;
+  /* border-top: 0.2rem solid #333; */
 
 }
 .hero{
@@ -260,10 +269,7 @@ display: flex;
 /* *************************** */
 /* Tajrish */
 
-.first-text-section{
-  padding:0;
-  border-top: 0.2rem solid #333;
-}
+
 .container-project{
   padding: 0 3.2rem;
   margin: 0 auto;
