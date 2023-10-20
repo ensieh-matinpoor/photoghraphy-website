@@ -130,20 +130,34 @@ padding: 2.0rem;
 border-bottom: 0.1rem solid rgba(0, 0, 0, 0.01);
 border-top: 0.2rem solid rgba(255, 255, 255, 0.05);
 }
-.side-navbar a{
+.side-navbar .project-name{
   color: #fafafa;
   text-decoration: none;
   font-size: 1.8rem;
 }
 .menu{
   font-weight: 300;
-  font-size: 2.4rem;
-  text-align: center;
+  font-size: 3.0rem;
+  text-align: left;
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  padding-left: 2.0rem;
   color: #fafafa;
-  line-height: 8.9rem;
-  border-bottom: 0.3rem solid #fff;
+  
 }
-
+.menu-header{
+  border-bottom: 0.3rem solid  #ff922b;
+  display: flex;
+  justify-content: space-between;
+}
+.close-menu-icon {
+max-width: 4.8rem;
+padding-right: 2.0rem;
+filter: invert(100%)
+ sepia(3%) saturate(10%)
+  hue-rotate(79deg) brightness(105%) 
+  contrast(96%);
+}
 
 /* ***************** */
 /* HERO SECTION */
