@@ -104,6 +104,7 @@ body {
   cursor: pointer;
 
 }
+
 /* ***************** */
 /* Side navbar*/
 /* ***************** */
@@ -114,6 +115,9 @@ top: 0;
 width: 35vw;
 height: 90vh;
 background-color: #333;
+overflow-y: auto;
+transition: 0.3s;
+display: none;
 }
 
 .side-navbar ul{
