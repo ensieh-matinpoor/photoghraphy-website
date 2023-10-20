@@ -103,21 +103,36 @@ body {
   cursor: pointer;
 
 }
+/* ***************** */
+/* Side navbar*/
+/* ***************** */
 .side-navbar{
 position: fixed;
 right: 0;
 top: 0;
 width: 35vw;
-height: 100vh;
+height: 90vh;
 background-color: #333;
 }
+
+.side-navbar ul{
+  list-style-type: none;
+}
+
 .side-navbar ul li{
+text-decoration:none;
+padding: 2.0rem;
+border-bottom: 0.1rem solid rgba(0, 0, 0, 0.01);
+border-top: 0.2rem solid rgba(255, 255, 255, 0.05);
+}
+a{
+  color: #fafafa;
   text-decoration: none;
-  
+  font-size: 1.8rem;
 }
 .menu{
   font-weight: 300;
-  font-size: 2.0rem;
+  font-size: 2.4rem;
   text-align: center;
   color: #fafafa;
   line-height: 8.9rem;
