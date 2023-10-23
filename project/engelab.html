@@ -10,14 +10,34 @@
   
   <link rel="stylesheet" href="../css/style.css"/>
   <link rel="stylesheet" href="../css/queries.css"/>
+  <script defer src="../js/script.js"></script>
+
   <title>Ensieh Matinpoor</title>
 </head>
-<body>
+<header>
   <nav class="navbar">
     <a href="../index.html"  class="logo-name" >Ensieh Matinpoor</a>
-    <button class="primary-button">project menu</button>
+    <button class="primary-button" id="show-menu-button">Project Menu</button>
   </nav>
-  <main>
+    
+  <div class="side-navbar" id="menu"> 
+      <div class="menu-header">
+        <h1 class="menu">Projects</h1>
+        <img class="close-menu-icon" id="close-icon" src="../img/icons/close.svg" alt="closing icon"> 
+  </div>
+    <ul>
+      <li><a  class="project-name"  href="tajrish.html">Tajrish</a></li>
+      <li><a  class="project-name"  href="engelab.html">Enghelab Street</a></li>
+      <li><a  class="project-name"  href="tajrish.html">Roaming in a strange city</a></li>
+      <li><a  class="project-name"   href="tajrish.html">Abandoned</a></li>
+      <li><a  class="project-name"   href="tajrish.html">From my window</a></li>
+      <li><a  class="project-name"   href="tajrish.html">If they weren't blocked</a></li>
+      <li><a  class="project-name"   href="tajrish.html">Too big to bin</a></li>
+    </ul>
+  </div>
+
+</header>
+  <main id="main">
   <section class="first-text-section">
   <div class="container-project">
     <h2 class="project-title">Enqelab Street</h2>
