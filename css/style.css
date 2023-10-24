@@ -170,6 +170,9 @@ filter: invert(100%)
 }
 .close-menu-icon:hover {
   cursor: pointer;
+  filter: invert(74%) sepia(48%)
+  saturate(6661%) hue-rotate(351deg)
+  brightness(101%) contrast(98%);
 }
 
 /* ***************** */
