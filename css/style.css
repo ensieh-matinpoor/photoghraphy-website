@@ -148,14 +148,11 @@ border-top: 0.2rem solid rgba(255, 255, 255, 0.05);
   text-decoration: none;
   font-size: 1.8rem;
 }
-.side-navbar ul li:hover{
- background-color: #fd7e14;
-}
 
-.side-navbar ul li:hover
-.project-name {
+.project-name :hover{
   color: #111;
-
+  background-color: #fd7e14;
+  
 }
 
 .menu-header{
