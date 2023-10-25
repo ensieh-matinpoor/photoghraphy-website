@@ -127,22 +127,22 @@
     /* 7px/16px= 0.43 43% */
     font-size: 43%;
   }
-    .primary-button {
-      width: 13rem; 
-      height: 4rem; 
-      font-size: 1.4rem; 
-      font-weight: 500;
-      line-height: 1.5rem;
-      display: inline-block; 
-      text-align: center;
-      white-space: normal;
-      background-color: #fafafa;
-      color: #000;
-      border: 0.2rem solid #000; 
-      border-radius: 1rem;
-      text-decoration: none;
-      box-shadow: 0 0.3rem #fc9925; 
-      text-decoration: none;
+ .primary-button {
+   width: 13rem; 
+   height: 4rem; 
+   font-size: 1.4rem; 
+   font-weight: 500;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   white-space: normal;
+   background-color: #fafafa;
+   color: #000;
+   border: 0.2rem solid #000; 
+   border-radius: 1rem;
+   text-decoration: none;
+   box-shadow: 0 0.3rem #fc9925; 
   }
   .heading-primary{
    font-size: 2.4rem;
