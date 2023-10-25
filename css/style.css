@@ -316,7 +316,7 @@ display: flex;
   margin-bottom: 6.4rem;
 }
 .socials-img{
-  min-width: 2.4rem;
+  width: 2.4rem;
   filter: invert(17%) sepia(21%) 
   saturate(5%) hue-rotate(5deg)
    brightness(97%) contrast(90%);
