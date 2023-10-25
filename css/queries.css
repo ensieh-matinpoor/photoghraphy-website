@@ -314,7 +314,12 @@
     row-gap: 3.2rem;
     padding: 0 2.4rem;
   }
-
+  .side-by-side{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.2rem;
+  }
+    
 
 }
 
