@@ -301,15 +301,19 @@
     margin: 0 auto;
   }
   .project-title{
-    padding: 2.4rem 2.4rem 2.4rem 2.4rem;
+    padding: 3.2rem 2.4rem 3.2rem 2.4rem;
   }
 
 
   .description-text{
-    padding: 0 2.4rem 0 2.4rem ;
+    padding: 0 2.4rem 0 2.4rem;
+    margin-bottom: 3.2rem;
   }
 
-
+  .img-container{
+    row-gap: 3.2rem;
+    padding: 0 2.4rem;
+  }
 
 
 }
