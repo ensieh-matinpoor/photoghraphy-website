@@ -252,13 +252,17 @@
     margin-bottom: 3.2rem;
   }
   .socials-img{
-    min-width: 1.2rem;
+    min-width: 1.6rem;
    filter: invert(17%) sepia(21%) 
    saturate(5%) hue-rotate(5deg)
    brightness(97%) contrast(90%);
   }
 }
-
+/* ***************** */
+/* below 544 px(phones)
+544/16=34 */
+/* PROJECTS PAGE */
+/* ***************** */
 
 
 
